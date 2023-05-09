@@ -1,0 +1,344 @@
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: rgb(56, 229, 30);
+    padding: 5rem;
+    border: 5px solid black; 
+}
+
+body{ 
+    background-color: rgb(255, 255, 255);
+}
+
+h1{   
+    color: #df2020;
+}
+
+.titulo{
+    color: blue;
+}
+
+
+.messi{
+    width: 10rem;
+}
+
+.richar{
+    padding: 10px;
+    background-color: rgb(18, 21, 18);
+    margin-left: 5rem;
+
+}
+/*
+div{
+    width: 10rem;
+    height: 5rem;
+    background-color: rgb(254, 17, 131);
+    overflow: auto;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.card{
+    background-color: rgb(232, 199, 232);
+    width: 20rem;
+}
+
+.card__img{
+    width: 10rem;
+    margin: auto;
+    display: block;
+}
+
+.card__titulo{
+    text-align: center;
+}
+
+.card__descripcion{
+    text-align: center;
+}
+
+
+/*comentar */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: khaki;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    background-color:rgba(142, 56, 56, 1);
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.imagen{
+    width: 40px;
+    padding: 10px;
+}
+
+nav a{
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+div a img{
+    width: 15rem;
+    padding: 15;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    
+}
+.card1{
+    background-color: rgba(142, 56, 56, 1);
+    width: 20rem;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    transition: .3s;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+
+div a h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.card2{
+    background-color: rgba(142, 56, 56, 1);
+    width: 20rem;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center ;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    transition: .3s;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+
+.contenedor{
+    display: flex;
+}
+.nav-link1{
+    padding: 1.5rem;
+    background-color:rgba(142, 56, 56, 1);
+}
+.nav-link2{
+    padding: 1.5rem;
+    background-color:rgba(142, 56, 56, 1);
+}
+.foto-pantalon{
+    width: 15rem;
+    padding: 15;
+    margin: auto;
+    display: block;
+    height: 20rem;
+    margin-top: 10px;
+}
+
+.card3{
+    background-color: rgba(142, 56, 56, 1);
+    width: 20rem;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    margin-right: 1.5rem;
+    transition: .3s;
+}
+.card3:hover{
+    transform: scale(1.1);
+}
+.foto-accesorios{
+    width: 15rem;
+    padding: 15;
+    margin: auto;
+    display: block;
+    height: 20rem;
+    margin-top: 10px;
+}
+
+body{
+    background-color: khaki;
+}
+
+.card-remera{
+    background-color: rgba(142, 56, 56, 1);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15px;
+    margin: 2rem;
+    text-align: center;
+    transition: .3s;
+}
+.card-remera:hover{
+    transform: scale(1.1);
+}
+.img-remera{
+    
+    padding-top: 10px;
+    display: block;
+    height: 17rem;
+}
+
+.card-camisas{
+    background-color: rgba(142, 56, 56, 1);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15px;
+    margin: 2rem;
+    margin-left: 8rem;
+    transition: .3s;
+}
+.card-camisas:hover{
+    transform: scale(1.1);
+}
+
+.img-camisas{
+    padding: auto;
+    padding-top: 10px;
+    height: 17rem;
+    display: block;
+}
+
+.card-abrigos{
+    background-color: rgba(142, 56, 56, 1);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15px;
+    margin: 2rem;
+    margin-left: 8rem;
+    transition: .3s;
+}
+.card-abrigos:hover{
+    transform: scale(1.1);
+}
+
+.img-abrigo{
+    padding: auto;
+    padding-top: 10px;
+    height: 17rem;
+    display: block;
+}
+
+
+
+
+
+
+.contenedor-remera{
+    display: flex;
+}
+
+.titulo-remeras{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+}
+
+.card-remeras{
+    background-color: rgba(142, 56, 56, 1);
+    width:20rem;
+    border-radius: 15px;
+    margin: 2rem;
+    height: 20.5rem;
+    
+}
+.precio{
+    color:aliceblue ;
+    padding-left: 3px;
+}
+
+.contenedor-remerass{
+    display: flex;
+}
+
+
+
+
+.card-pantalones{
+    background-color:rgba(142, 56, 56, 1); ;
+    width: 20rem;
+    border-radius: 15px;
+    margin: 2rem;
+    height: 26rem;
+    margin-left: 12rem;
+    transition: .3s;
+}
+.card-pantalones:hover{
+    transform: scale(1.1);
+}
+
+.img-pantalones{
+    padding-top: 10px;
+    height: 23rem;
+}
+
+.card-bermudas{
+    background-color: rgba(142, 56, 56, 1);
+    margin: 2rem;
+    border-radius: 15px;
+    width: 20rem;
+    height: 26rem;
+    margin-left: 12rem;
+    transition: .3s;
+}
+.card-bermudas:hover{
+    transform: scale(1.1);
+}
+
+.contenedor-pantalones{
+    display:flex
+}
+
+.img-bermudas{
+    padding-top: 10px;
+    height: 23rem;
+    
+}
+
+.pantalones-largos{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+}
+
+.img-todas{
+    height: 16.5rem;
+    padding-top: 10px;
+}
+.redes-sociales{
+    text-align: center;
+    margin-top: 13rem;
+    font-size: 2rem;
+}
